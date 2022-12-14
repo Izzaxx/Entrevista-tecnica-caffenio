@@ -1,4 +1,6 @@
-# entrevista-tecnica-caffenio
+# Entrevista tecnica caffenio
+# Ing. Luis Angel Izaguirre Hernandez
+
 Ejercicios de la entrevista tecnica de caffenio para el puesto de desarrollador movil
 
 ```
