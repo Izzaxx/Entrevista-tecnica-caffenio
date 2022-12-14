@@ -18,3 +18,5 @@ Se puede hacer en hoja de papel y se manda la foto (que se pueda leer)
 
 Realizar una función o método que reciba como parámetro los minutos que estuvo en el estacionamiento y regrese el costo aplicando las reglas anteriores.
 ```
+
+![diagrama_ejercicio_1_caffenio](https://user-images.githubusercontent.com/56525224/207530907-c1c63be7-e8b0-4607-b083-3ccc1a9635c0.PNG)
