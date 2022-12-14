@@ -20,3 +20,39 @@ Realizar una función o método que reciba como parámetro los minutos que estuv
 ```
 
 ![diagrama_ejercicio_1_caffenio](https://user-images.githubusercontent.com/56525224/207530907-c1c63be7-e8b0-4607-b083-3ccc1a9635c0.PNG)
+
+```java
+public class Ejercicio1 {
+
+    public static void main(String[] args) {
+        parkingPayment(354);
+    }
+
+    public static void parkingPayment(int minutes) {
+
+        minutes = Math.abs(minutes);
+
+        int hour = 10;
+        int fraction = 6;
+        int promotion = 8;
+
+        int hours = minutes / 60;
+        int minutesRes = minutes % 60;
+
+        int totalPayment = 0;
+
+        System.out.printf("%d:%02d\n", hours, minutesRes);
+
+        int fractionPayment = minutesRes != 0 ? fraction : 0;
+
+        if (hours < 3) {
+            totalPayment = (hours * hour) + fractionPayment;
+        } else {
+            totalPayment = (hours * promotion) + fractionPayment;
+        }
+
+        System.out.println("Usted paga: $" + totalPayment);
+    }
+
+}
+```
